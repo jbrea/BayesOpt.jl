@@ -16,4 +16,4 @@ config.verbose_level = 0
 
 lb = [-5., 0.]; ub = [10., 15.]
 optimizer, optimum = bayes_optimization(branin, lb, ub, config)
-@test regret(optimizer, branin) < .01
+@test regret(optimizer, branin) < .05
