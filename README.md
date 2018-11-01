@@ -25,3 +25,7 @@ optimizer, optimum = bayes_optimization(f, lowerbound, upperbound, config)
 
 Consult the [BayesOpt documentation](https://rmcantin.bitbucket.io/html/usemanual.html)
 for the configuration options.
+
+## Similar Project
+[BayesianOptimization](https://github.com/jbrea/BayesianOptimization.jl) has
+less features, but is written in julia and has similar performance.
