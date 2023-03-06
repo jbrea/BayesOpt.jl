@@ -23,7 +23,7 @@ lowerbound = [-2., -2.]; upperbound = [2., 2.]
 optimizer, optimum = bayes_optimization(f, lowerbound, upperbound, config)
 ```
 
-Consult the [BayesOpt documentation](https://rmcantin.bitbucket.io/html/usemanual.html)
+Consult the [BayesOpt documentation](http://rmcantin.github.io/bayesopt/html/)
 for the configuration options.
 
 ## Similar Project
